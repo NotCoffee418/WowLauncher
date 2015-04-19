@@ -50,7 +50,7 @@ namespace WowLauncher
         /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Process.Start(Properties.Settings.Default.WowDir + "\\Wow.exe");
         }
         
         private void worker_DoWork(object sender, DoWorkEventArgs e)
